@@ -1,0 +1,40 @@
+@import url(./variables.css);
+  
+  .cartoony-card {
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cartoony-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .cartoony-header {
+    background-color: var(--secondary-color);
+    color: #fff;
+   
+    text-align: center;
+  }
+  
+  .cartoony-title {
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .cartoony-text {
+    color: #666;
+  }
+  
+  .cartoony-button {
+    background-color: var(--secondary-color);
+    border: none;
+    &:hover {
+      background-color: #1e88e5;
+    }
+  }
+  

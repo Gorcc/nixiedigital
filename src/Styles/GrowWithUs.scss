@@ -1,0 +1,82 @@
+@import url("./variables.css");
+.grow-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 60px;
+
+
+    h1{
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 40px;
+        color: white;
+    }
+}
+
+.grow-left{
+    width: 50%;
+
+    img{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.grow-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{text-transform: uppercase;
+        text-transform: uppercase;
+        font-size: 36px;
+        width: 600px;
+        padding: 12px;
+        color: white;
+        border: 2px solid white;
+    }
+    p{
+        margin: 0;
+        width: 600px;
+        text-align: justify;
+        color: white;
+    }
+}
+.grow-left-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        text-transform: uppercase;
+        font-size: 36px;
+        width: 600px;
+        padding: 12px;
+        
+        color: white;
+        border: 2px solid white;
+    }
+    p{
+        margin: 0;
+        width: 600px;
+        text-align: justify;
+        color: white;
+    }
+   
+}
+
+.grow-right-2{
+    width: 50%;
+
+    img{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+
+.web-container{
+    display: flex;
+}

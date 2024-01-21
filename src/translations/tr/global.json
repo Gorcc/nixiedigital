@@ -1,0 +1,13 @@
+{
+    "header": {
+        "home":"ANA SAYFA",
+        "About":"SERVİSLER",
+        "Pricing":"PROJELER"
+        
+    },
+    "home":{
+        "body":"Pazarlama Platformumuzla Birlikte Dijitalde",
+        "span":"Daha Hızlı",
+        "body-2":"Büyüyün!"
+    }
+}

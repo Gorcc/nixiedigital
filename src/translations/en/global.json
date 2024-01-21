@@ -1,0 +1,24 @@
+{
+  "header": {
+    "home": "HOME",
+    "About": "SERVICES",
+    "Pricing": "PROJECTS"
+  },
+
+  "home": {
+    "body": "Grow",
+    "span": "faster",
+    "body-2": "with our all-in-one marketing platform!"
+  },
+
+  "services": {
+    "card-1": "Web Development",
+    "card-1-p":"Elevate your online presence with our expert web development for stunning, functional websites.",
+    "card-2":"Web Design",
+    "card-2-p":"Stand out in the digital landscape with our responsive design and effective SEO services.",
+    "card-3":"Launch Your Brand",
+    "card-3-p":"Boost your success with our dynamic platform solutions, seamlessly merging creativity and functionality for a powerful online launch.",
+    "card-4":"Social Media Impact",
+    "card-4-p":"Maximize online influence with our social media solutions for vibrant, engaging communities."
+  }
+}

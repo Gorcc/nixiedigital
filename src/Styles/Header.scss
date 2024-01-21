@@ -1,0 +1,53 @@
+@import url(base.css);
+@import url(variables.css);
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 60px;
+  border-bottom: 1px solid white;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+.header-left {
+  img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 8px;
+  }
+}
+
+.header-middle ul {
+  display: flex;
+  list-style: none;
+
+  li {
+    margin: 0 12px;
+  }
+}
+
+.language-btn {
+  padding: 12px;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+
+  padding: 16px 20px;
+  text-decoration: none;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+.language-btn:hover {
+  transform: scale(1.05);
+}
