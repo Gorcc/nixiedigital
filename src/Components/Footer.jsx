@@ -16,7 +16,6 @@ const Footer = () => {
             
             <ul className="list-unstyled">
               <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -24,9 +23,9 @@ const Footer = () => {
           <Col md={4}>
             
             <ul className="list-unstyled">
-              <li><a href="#">FACEBOOK</a></li>
-              <li><a href="#">INSTAGRAM</a></li>
-              <li><a href="#">TWITTER</a></li>
+  
+              <li><a href="https://www.instagram.com/nixiedigital/?hl=tr" target='blank'>INSTAGRAM</a></li>
+             
               
               
               

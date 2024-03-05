@@ -6,6 +6,8 @@ import Services from './Components/Services';
 import GrowWithUs from './Components/GrowWithUs';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
+import Prices from './Components/Prices';
+import Contact from './Components/Contact';
 
 
 
@@ -16,7 +18,8 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       <GrowWithUs></GrowWithUs>
-      <Projects></Projects>
+      <Prices></Prices>
+      <Contact></Contact>
       <Footer></Footer>
       
     </div>

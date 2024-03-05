@@ -1,40 +1,61 @@
 @import url(./variables.css);
-  
-  .cartoony-card {
-    border: 2px solid var(--secondary-color);
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    transition: transform 0.3s ease-in-out;
+
+.prices-container {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+  width: 100%;
+}
+
+.price-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background-color: #212121;
+  border: 3px solid RGB(239 155 69);
+  color: white;
+  border-radius: 15px;
+  width: 30%;
+  margin: 24px 32px;
+
+  h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: RGB(239 155 69);
   }
-  
-  .cartoony-card:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-  
-  .cartoony-header {
-    background-color: var(--secondary-color);
-    color: #fff;
+
+
+  .most-popular{
+    position: absolute;
+    background-color:RGB(239 155 69);
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 10px;
    
-    text-align: center;
   }
-  
-  .cartoony-title {
-    font-size: 24px;
-    color: var(--secondary-color);
-    margin-bottom: 10px;
-  }
-  
-  .cartoony-text {
-    color: #666;
-  }
-  
-  .cartoony-button {
-    background-color: var(--secondary-color);
-    border: none;
-    &:hover {
-      background-color: #1e88e5;
+
+  .price-tag{
+    font-size: 40px;
+    font-weight: bold;
+
+    span{
+      font-size: 12px;
+      font-weight:lighter;
+      color: antiquewhite;
     }
   }
   
+}
+
+.features{
+  text-align: justify;
+  margin: 0 auto;
+  span{
+    margin-right: 12px;
+  }
+}
+
+
